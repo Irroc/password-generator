@@ -16,11 +16,12 @@ function  generatePassword() {
     releaseEvents
   }
 
-  else if (length = NaN) { //THIS DOESNT WORK FIX LATER
+  else if (length = "NaN") { 
     alert("Must be a number")
+    releaseEvents
   }
 
-  else console.log ("made past first is statement")
+  else console.log ("made past first if statement")
 
   const uppercase = confirm("Would you like to include lowercase letters?")  
 
@@ -30,9 +31,7 @@ function  generatePassword() {
  
   const special = confirm("Would you like to include special characters")
   
-    
-
-
+  
 //IMPORTANT BELOW
     return "the new password"
 }
